@@ -6,7 +6,7 @@ public class Boss {
     private int mp = 53;
     public void Magic(int consume) {
         int rest = this.mp -= consume;
-        if (rest >= 0) {
+        if (rest >= 5) {
             Debug.Log("魔法攻撃をした。残りMPは" + rest + "。");
         } else {
             Debug.Log("MPが足りないため魔法が使えない。");
