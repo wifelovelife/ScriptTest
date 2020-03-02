@@ -19,17 +19,9 @@ public class assignment_02 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Boss boss01 = new Boss();
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
-        boss01.Magic(5);
+        for (int i = 1; i <= 11; i++) {
+            boss01.Magic(5);
+        }
     }
 	
 	// Update is called once per frame
